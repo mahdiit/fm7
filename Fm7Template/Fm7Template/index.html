@@ -12,12 +12,18 @@
 
     <title>Awesome App</title>
     <link href="/framework7/css/framework7.bundle.rtl.min.css" rel="stylesheet" />
+    <link href="/Content/css/main.css" rel="stylesheet" />
 </head>
-<body>
+<body dir="rtl">
     <!-- App root element -->
     <div id="app">
         <!-- Statusbar overlay -->
         <div class="statusbar"></div>
+        
+        <!-- view inside of panel -->
+        <div class="panel panel-left panel-cover">
+            <div class="view panel-view"> ... </div>
+        </div>
 
         <!-- Your main view, should have "view-main" class -->
         <div class="view view-main">
@@ -50,6 +56,7 @@
         </div>
     </div>
 
-    <script src="/framework7/js/framework7.bundle.min.js"></script>
+<script src="/framework7/js/framework7.bundle.min.js"></script>
+<script src="/Content/js/main.js"></script>
 </body>
 </html>
